@@ -44,7 +44,7 @@ module LibertyBuildpack
           version = tokenized_versions
                     .select { |tokenized_version| matches? tokenized_candidate_version, tokenized_version }
                     .max { |a, b| a <=> b }
-          puts "Let's see what we have: #{version}"
+          #puts "Let's see what we have: #{version}"
           version
         end
 
